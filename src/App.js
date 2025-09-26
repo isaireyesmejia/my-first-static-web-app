@@ -1,16 +1,8 @@
-function MyButton() {
-  return (
-    <button>
-      Soy un botón
-    </button>
-  );
+import React from 'react';
+
+function App() {
+  const value = 'Isaí';
+  return <div>Hello {value}</div>;
 }
 
-export default function MyApp() {
-  return (
-    <div>
-      <h1>Bienvenido a mi aplicación</h1>
-      <MyButton />
-    </div>
-  );
-}
+export default App;
